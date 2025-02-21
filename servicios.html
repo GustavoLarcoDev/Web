@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Servicios - Impusloyz</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/navbar.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.service-section {
+				background: rgba(0, 0, 0, 0.7);
+				padding: 20px;
+				border-radius: 10px;
+				margin: 20px 0;
+				text-align: left;
+			}
+			.price-tag {
+				color: #64ffda;
+				font-weight: bold;
+				font-size: 1.2em;
+			}
+			.feature-list {
+				list-style-type: none;
+				padding: 0;
+			}
+			.feature-list li {
+				margin: 10px 0;
+				padding-left: 20px;
+			}
+			.feature-list li:before {
+				content: "✓";
+				margin-right: 10px;
+				color: #64ffda;
+			}
+			.nav-buttons {
+				margin: 2em 0;
+			}
+			.nav-buttons a {
+				display: inline-block;
+				margin: 0.5em;
+				padding: 0.7em 1.5em;
+				border: 2px solid #fff;
+				border-radius: 25px;
+				transition: all 0.3s ease;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-size: 0.8em;
+			}
+			.nav-buttons a:hover {
+				background: rgba(255, 255, 255, 0.1);
+				transform: translateY(-3px);
+				box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+			}
+			nav ul li a {
+				transition: all 0.3s ease !important;
+			}
+			nav ul li a:hover {
+				transform: scale(1.1);
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Navbar -->
+		<nav class="navbar">
+			<ul class="navbar-links">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="portfolio.html">Portafolio</a></li>
+				<li><a href="desarrollo.html">Desarrollo</a></li>
+				<li><a href="servicios.html" class="active">Marketing</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<!-- Header -->
+					<header id="header">
+						<h1>Servicios de Marketing</h1>
+						<p>Impulsa tu Negocio en el Mundo Digital</p>
+
+						<div class="service-section">
+							<h2>Paquete Básico</h2>
+							<p class="price-tag">$3,999 MXN/mes</p>
+							<ul class="feature-list">
+								<li>Gestión de 2 redes sociales</li>
+								<li>12 posts mensuales</li>
+								<li>2 historias semanales</li>
+								<li>Respuesta a comentarios</li>
+								<li>Reporte mensual básico</li>
+							</ul>
+						</div>
+
+						<div class="service-section">
+							<h2>Paquete Profesional</h2>
+							<p class="price-tag">$7,999 MXN/mes</p>
+							<ul class="feature-list">
+								<li>Gestión de 3 redes sociales</li>
+								<li>20 posts mensuales</li>
+								<li>5 historias semanales</li>
+								<li>1 campaña publicitaria</li>
+								<li>Diseño personalizado</li>
+								<li>Estrategia de hashtags</li>
+								<li>Reporte quincenal detallado</li>
+							</ul>
+						</div>
+
+						<div class="service-section">
+							<h2>Paquete Premium</h2>
+							<p class="price-tag">$14,999 MXN/mes</p>
+							<ul class="feature-list">
+								<li>Gestión de 4 redes sociales</li>
+								<li>30 posts mensuales</li>
+								<li>10 historias semanales</li>
+								<li>2 campañas publicitarias</li>
+								<li>Contenido video mensual</li>
+								<li>Estrategia de influencers</li>
+								<li>Reporte semanal con KPIs</li>
+								<li>Atención personalizada 24/7</li>
+							</ul>
+						</div>
+
+						<div class="nav-buttons">
+							<a href="index.html">Inicio</a>
+							<a href="portfolio.html">Nuestro Trabajo</a>
+							<a href="desarrollo.html">Desarrollo Web</a>
+							<a href="contacto.html">Contáctanos</a>
+						</div>
+
+						<nav>
+							<ul>
+								<li><a href="https://facebook.com/impusloyz" class="icon brands fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+								<li><a href="https://twitter.com/impusloyz" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+								<li><a href="https://instagram.com/impusloyz" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+								<li><a href="https://linkedin.com/company/impusloyz" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:contacto@impusloyz.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Impusloyz. Potenciando tu presencia en redes sociales.</span>
+					</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+		<script src="assets/js/navigation.js"></script>
+	</body>
+</html>

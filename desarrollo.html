@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Desarrollo Web - Impusloyz</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/navbar.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			body {
+				overflow-y: auto !important;
+				background: #348cb2 url("images/bg.jpg") bottom left;
+				background-repeat: repeat-y;
+				height: auto !important;
+			}
+			#wrapper {
+				height: auto !important;
+				position: relative !important;
+			}
+			#main {
+				position: relative !important;
+				height: auto !important;
+				padding-bottom: 50px;
+			}
+			.portfolio-container {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			.project-card {
+				background: rgba(0, 0, 0, 0.7);
+				margin-bottom: 50px;
+				padding: 30px;
+				border-radius: 15px;
+				text-align: left;
+				transition: transform 0.3s ease;
+			}
+			.project-card:hover {
+				transform: translateY(-10px);
+			}
+			.project-image {
+				width: 100%;
+				max-width: 800px;
+				border-radius: 10px;
+				margin: 20px auto;
+				display: block;
+				box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+			}
+			.project-title {
+				font-size: 2em;
+				margin-bottom: 15px;
+				color: #fff;
+			}
+			.project-description {
+				margin: 20px 0;
+				font-size: 1.1em;
+				line-height: 1.6;
+				color: #ccc;
+			}
+			.tech-stack {
+				margin: 20px 0;
+				padding: 0;
+				list-style: none;
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+			}
+			.tech-stack li {
+				background: rgba(255,255,255,0.1);
+				padding: 5px 15px;
+				border-radius: 20px;
+				font-size: 0.9em;
+			}
+			.project-links {
+				margin-top: 20px;
+			}
+			.project-links a {
+				display: inline-block;
+				margin-right: 20px;
+				padding: 10px 20px;
+				border: 2px solid #fff;
+				border-radius: 25px;
+				transition: all 0.3s ease;
+				text-decoration: none;
+			}
+			.project-links a:hover {
+				background: rgba(255,255,255,0.1);
+				transform: translateY(-3px);
+			}
+			.project-links i {
+				margin-right: 8px;
+			}
+			#header {
+				margin-bottom: 50px;
+				position: relative !important;
+				padding: 20px;
+			}
+			#bg {
+				position: fixed !important;
+			}
+			#overlay {
+				position: fixed !important;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Navbar -->
+		<nav class="navbar">
+			<ul class="navbar-links">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="portfolio.html">Portafolio</a></li>
+				<li><a href="desarrollo.html" class="active">Desarrollo</a></li>
+				<li><a href="servicios.html">Marketing</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<!-- Header -->
+				<header id="header">
+					<h1>Desarrollo Web</h1>
+					<p>Nuestros Proyectos Destacados</p>
+				</header>
+
+				<div class="portfolio-container">
+					<!-- Portfolio Personal Project -->
+					<div class="project-card" data-aos="fade-up">
+						<h2 class="project-title">Portfolio Personal - Desarrollador de Software</h2>
+						<img src="images/GustavoLarcoSoftware.png" alt="Personal Portfolio Website Preview" class="project-image">
+						<div class="project-description">
+							Portfolio personal con un diseño moderno y minimalista que refleja mi trabajo como desarrollador de software. La interfaz destaca mis proyectos y habilidades técnicas con un diseño elegante y profesional, utilizando una paleta de colores oscura con acentos en azul.
+						</div>
+						<ul class="tech-stack">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>JavaScript</li>
+							<li>React</li>
+							<li>Diseño Responsivo</li>
+							<li>Animaciones Suaves</li>
+							<li>Dark Theme</li>
+						</ul>
+						<div class="project-links">
+							<a href="https://gustavolarcodev.github.io/" target="_blank">
+								<i class="fas fa-external-link-alt"></i>Ver Sitio
+							</a>
+							<a href="https://github.com/GustavoLarcoDev/GustavoLarcoDev.github.io" target="_blank">
+								<i class="fab fa-github"></i>Ver Código
+							</a>
+						</div>
+					</div>
+
+					<!-- Impulsoyz Project -->
+					<div class="project-card" data-aos="fade-up">
+						<h2 class="project-title">Impulsoyz - Agencia de Marketing Digital</h2>
+						<img src="images/Impulso.png" alt="Impulsoyz Website Preview" class="project-image">
+						<div class="project-description">
+							Sitio web corporativo para una agencia de marketing digital líder. El diseño moderno y minimalista refleja profesionalismo y experiencia, destacando los logros de la empresa con contadores animados y una galería de equipo dinámica. La interfaz intuitiva presenta los servicios y el portafolio de manera efectiva.
+						</div>
+						<ul class="tech-stack">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>JavaScript</li>
+							<li>React</li>
+							<li>Diseño Responsivo</li>
+							<li>Animaciones</li>
+							<li>Contadores Dinámicos</li>
+						</ul>
+						<div class="project-links">
+							<a href="https://gustavolarcodev.github.io/Impulsoyz/" target="_blank">
+								<i class="fas fa-external-link-alt"></i>Ver Sitio
+							</a>
+							<a href="https://github.com/GustavoLarcoDev/Impulsoyz" target="_blank">
+								<i class="fab fa-github"></i>Ver Código
+							</a>
+						</div>
+					</div>
+
+					<!-- Bella Nails Project -->
+					<div class="project-card" data-aos="fade-up">
+						<h2 class="project-title">Bella Nails - Salón de Belleza</h2>
+						<img src="images/BellaNails.png" alt="Bella Nails Website Preview" class="project-image">
+						<div class="project-description">
+							Sitio web moderno y elegante para un salón de belleza especializado en manicura y pedicura. El diseño incorpora una paleta de colores suaves y femeninos, con una galería de trabajos interactiva y un sistema de reservas en línea.
+						</div>
+						<ul class="tech-stack">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>JavaScript</li>
+							<li>Bootstrap</li>
+							<li>Diseño Responsivo</li>
+							<li>Galería Interactiva</li>
+							<li>Sistema de Reservas</li>
+						</ul>
+						<div class="project-links">
+							<a href="https://gustavolarcodev.github.io/bella-nails-salon/" target="_blank">
+								<i class="fas fa-external-link-alt"></i>Ver Sitio
+							</a>
+							<a href="https://github.com/GustavoLarcoDev/bella-nails-salon" target="_blank">
+								<i class="fab fa-github"></i>Ver Código
+							</a>
+						</div>
+					</div>
+
+					<!-- Casa & Estilo Project -->
+					<div class="project-card" data-aos="fade-up">
+						<h2 class="project-title">Casa & Estilo - Tienda de Muebles</h2>
+						<img src="images/CasaEstilo.png" alt="Casa & Estilo Website Preview" class="project-image">
+						<div class="project-description">
+							Sitio web elegante y moderno para una tienda de muebles de alta gama. El diseño se centra en mostrar los productos de manera sofisticada, con una experiencia de usuario limpia y profesional.
+						</div>
+						<ul class="tech-stack">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>JavaScript</li>
+							<li>Bootstrap</li>
+							<li>Diseño Responsivo</li>
+						</ul>
+						<div class="project-links">
+							<a href="https://gustavolarcodev.github.io/casa-estilo-furniture/" target="_blank">
+								<i class="fas fa-external-link-alt"></i>Ver Sitio
+							</a>
+							<a href="https://github.com/GustavoLarcoDev/casa-estilo-furniture" target="_blank">
+								<i class="fab fa-github"></i>Ver Código
+							</a>
+						</div>
+					</div>
+
+					<!-- Urban Style Project -->
+					<div class="project-card" data-aos="fade-up">
+						<h2 class="project-title">Urban Style - Tienda de Moda</h2>
+						<img src="images/UrbanStyle.png" alt="Urban Style Website Preview" class="project-image">
+						<div class="project-description">
+							E-commerce de moda con un diseño minimalista y moderno. La plataforma ofrece una experiencia de compra intuitiva con categorías bien definidas para ropa y accesorios. El diseño prioriza la presentación visual de los productos con un enfoque en la fotografía de moda.
+						</div>
+						<ul class="tech-stack">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>JavaScript</li>
+							<li>React</li>
+							<li>Diseño Responsivo</li>
+							<li>Grid Layout</li>
+						</ul>
+						<div class="project-links">
+							<a href="https://gustavolarcodev.github.io/urban-style-clothing/" target="_blank">
+								<i class="fas fa-external-link-alt"></i>Ver Sitio
+							</a>
+							<a href="https://github.com/GustavoLarcoDev/urban-style-clothing" target="_blank">
+								<i class="fab fa-github"></i>Ver Código
+							</a>
+						</div>
+					</div>
+
+					<!-- La Mesa Restaurant Project -->
+					<div class="project-card" data-aos="fade-up">
+						<h2 class="project-title">La Mesa - Restaurante Mediterráneo</h2>
+						<img src="images/LaMesa.png" alt="La Mesa Restaurant Website Preview" class="project-image">
+						<div class="project-description">
+							Sitio web sofisticado para un restaurante de cocina mediterránea contemporánea. El diseño oscuro y elegante realza la experiencia gastronómica, con funcionalidades como reservaciones en línea, menú digital y galería de platillos.
+						</div>
+						<ul class="tech-stack">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>JavaScript</li>
+							<li>Bootstrap</li>
+							<li>Diseño Responsivo</li>
+							<li>Sistema de Reservaciones</li>
+						</ul>
+						<div class="project-links">
+							<a href="https://gustavolarcodev.github.io/restaurant-la-mesa/" target="_blank">
+								<i class="fas fa-external-link-alt"></i>Ver Sitio
+							</a>
+							<a href="https://github.com/GustavoLarcoDev/restaurant-la-mesa" target="_blank">
+								<i class="fab fa-github"></i>Ver Código
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			window.addEventListener('DOMContentLoaded', (event) => {
+				AOS.init({
+					duration: 1000,
+					offset: 100,
+					once: true
+				});
+				document.body.classList.remove('is-preload');
+			});
+			window.ontouchmove = null;
+			window.onorientationchange = null;
+		</script>
+		<script src="assets/js/navigation.js"></script>
+	</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Contacto - Impusloyz</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/navbar.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.contact-section {
+				background: rgba(0, 0, 0, 0.7);
+				padding: 20px;
+				border-radius: 10px;
+				margin: 20px 0;
+				text-align: center;
+			}
+			.contact-info {
+				margin: 15px 0;
+				font-size: 1.2em;
+			}
+			.contact-info i {
+				margin-right: 10px;
+				color: #64ffda;
+			}
+			.social-links {
+				margin: 20px 0;
+			}
+			.social-links a {
+				font-size: 2em;
+				margin: 0 15px;
+				color: white;
+				transition: color 0.3s ease;
+			}
+			.social-links a:hover {
+				color: #64ffda;
+			}
+			.nav-buttons {
+				margin: 2em 0;
+			}
+			.nav-buttons a {
+				display: inline-block;
+				margin: 0.5em;
+				padding: 0.7em 1.5em;
+				border: 2px solid #fff;
+				border-radius: 25px;
+				transition: all 0.3s ease;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-size: 0.8em;
+			}
+			.nav-buttons a:hover {
+				background: rgba(255, 255, 255, 0.1);
+				transform: translateY(-3px);
+				box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+			}
+			nav ul li a {
+				transition: all 0.3s ease !important;
+			}
+			nav ul li a:hover {
+				transform: scale(1.1);
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Navbar -->
+		<nav class="navbar">
+			<ul class="navbar-links">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="portfolio.html">Portafolio</a></li>
+				<li><a href="desarrollo.html">Desarrollo</a></li>
+				<li><a href="servicios.html">Marketing</a></li>
+				<li><a href="contacto.html" class="active">Contacto</a></li>
+			</ul>
+		</nav>
+
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<!-- Header -->
+					<header id="header">
+						<h1>Contacto</h1>
+						<p>¡Hagamos Crecer tu Negocio!</p>
+
+						<div class="contact-section">
+							<h2>Información de Contacto</h2>
+							<div class="contact-info">
+								<p><i class="icon solid fa-phone"></i> +52 (55) 1234-5678</p>
+								<p><i class="icon solid fa-envelope"></i> contacto@impusloyz.com</p>
+								<p><i class="icon solid fa-clock"></i> Lunes a Viernes 9:00 - 18:00</p>
+							</div>
+
+							<div class="nav-buttons">
+								<a href="index.html">Inicio</a>
+								<a href="portfolio.html">Nuestro Trabajo</a>
+								<a href="desarrollo.html">Desarrollo Web</a>
+								<a href="servicios.html">Marketing Digital</a>
+							</div>
+
+							<nav>
+								<ul>
+									<li><a href="https://facebook.com/impusloyz" class="icon brands fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a href="https://twitter.com/impusloyz" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a href="https://instagram.com/impusloyz" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a href="https://linkedin.com/company/impusloyz" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+									<li><a href="mailto:contacto@impusloyz.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</nav>
+
+							<div class="contact-info">
+								<h3>Oficina Principal</h3>
+								<p><i class="icon solid fa-map-marker-alt"></i> Ciudad de México, México</p>
+							</div>
+						</div>
+
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Impusloyz. Conectando con nuestros clientes.</span>
+					</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+		<script src="assets/js/navigation.js"></script>
+	</body>
+</html>

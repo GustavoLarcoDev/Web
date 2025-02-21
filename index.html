@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Impusloyz</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/navbar.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.nav-buttons {
+				margin: 2em 0;
+			}
+			.nav-buttons a {
+				display: inline-block;
+				margin: 0.5em;
+				padding: 0.7em 1.5em;
+				border: 2px solid #fff;
+				border-radius: 25px;
+				transition: all 0.3s ease;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-size: 0.8em;
+			}
+			.nav-buttons a:hover {
+				background: rgba(255, 255, 255, 0.1);
+				transform: translateY(-3px);
+				box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+			}
+			nav ul li a {
+				transition: all 0.3s ease !important;
+			}
+			nav ul li a:hover {
+				transform: scale(1.1);
+			}
+			.highlight {
+				color: #64ffda;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Navbar -->
+		<nav class="navbar">
+			<ul class="navbar-links">
+				<li><a href="index.html" class="active">Inicio</a></li>
+				<li><a href="portfolio.html">Portafolio</a></li>
+				<li><a href="desarrollo.html">Desarrollo</a></li>
+				<li><a href="servicios.html">Marketing</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<!-- Header -->
+					<header id="header">
+						<h1>Impusloyz</h1>
+						<p>Marketing Digital <span class="highlight">&nbsp;&bull;&nbsp;</span> Desarrollo Web <span class="highlight">&nbsp;&bull;&nbsp;</span> Diseño Gráfico</p>
+						
+						<div class="nav-buttons">
+							<a href="portfolio.html">Nuestro Trabajo</a>
+							<a href="desarrollo.html">Desarrollo Web</a>
+							<a href="servicios.html">Marketing Digital</a>
+							<a href="contacto.html">Contáctanos</a>
+						</div>
+
+						<nav>
+							<ul>
+								<li><a href="https://facebook.com/impusloyz" class="icon brands fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+								<li><a href="https://twitter.com/impusloyz" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+								<li><a href="https://instagram.com/impusloyz" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+								<li><a href="https://linkedin.com/company/impusloyz" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:contacto@impusloyz.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Impusloyz. Transformando negocios en el mundo digital.</span>
+					</footer>
+			</div>
+		</div>
+		<script src="assets/js/navigation.js"></script>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
